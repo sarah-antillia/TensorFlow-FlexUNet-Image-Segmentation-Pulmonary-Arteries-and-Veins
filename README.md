@@ -61,7 +61,7 @@ Our dataset comprises 95 3D CT scans obtained from Siemens’ SOMATOM Definition
 This led to a final dataset consisting of 106 subjects. In addition, we also labeled the lung areas for two purposes. On one hand, this helps distinguish pulmonary arteries and veins inside and outside the lung.
 <br><br>
 The related conference paper titled with 'Fusion of Machine Learning and Deep Neural Networks for Pulmonary Arteries and Veins Segmentation 
-in Lung Cancer Surgery Planning' can be found here [<a href="https://doi.org/10.1007/978-3-031-78198-8_28">shttps://doi.org/10.1007/978-3-031-78198-8_28</a>].
+in Lung Cancer Surgery Planning' can be found here [<a href="https://doi.org/10.1007/978-3-031-78198-8_28">https://doi.org/10.1007/978-3-031-78198-8_28</a>].
 
 <br><br>
 <b>License</b><br>
@@ -304,7 +304,7 @@ Yuetan Chu, Gongning Luo, Longxi Zhou, Shaodong Cao, Guolin Ma, Xianglin Meng, J
 Xiaotong Guo, Deqian Yang, Dan Wang, Haochen Zhao, Yuan Li, Zhilin Sui, Tao Zhou, Lijun Zhang, and Yanda Meng<br>
 <a href="https://arxiv.org/pdf/2501.03722">https://arxiv.org/pdf/2501.03722</a>
 <br><br>
-<b>6. TensorFlow-FlexUNet-Image-Segmentation-Model</b><br>
+<b>3. TensorFlow-FlexUNet-Image-Segmentation-Model</b><br>
 Toshiyuki Arai <br>
 <a href="https://github.com/sarah-antillia/TensorFlow-FlexUNet-Image-Segmentation-Model">
 https://github.com/sarah-antillia/TensorFlow-FlexUNet-Image-Segmentation-Model
