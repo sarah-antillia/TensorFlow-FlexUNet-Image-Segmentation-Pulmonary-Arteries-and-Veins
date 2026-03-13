@@ -1,6 +1,8 @@
-<h2>TensorFlow-FlexUNet-Image-Segmentation-Pulmonary-Arteries-and-Veins (2026/03/06)</h2>
+<h2>TensorFlow-FlexUNet-Image-Segmentation-Pulmonary-Arteries-and-Veins (Updated: 2026/03/13)</h2>
 Sarah T.  Arai<br>
 Software Laboratory antillia.com<br><br>
+<li>2026/03/13: Retrained FlexUNet Model to improve segmentation performance.</li>
+<br>
 This is the first experiment of Image Segmentation for <b>Lung-Vessel-CT</b> based on our <a href="./src/TensorFlowFlexUNet.py">TensorFlowFlexUNet</a> 
 (TensorFlow Flexible UNet Image Segmentation Model for Multiclass), 
 and a 512x512 pixels
@@ -185,17 +187,17 @@ By using this epoch_change_infer callback, on every epoch_change, the inference 
 <b>Epoch_change_inference output at starting (1,2,3)</b><br>
 <img src="./projects/TensorFlowFlexUNet/Lung-Vessel-CT/asset/epoch_change_infer_at_start.png" width="1024" height="auto"><br>
 <br>
-<b>Epoch_change_inference output at middle-point (22,23,24)</b><br>
+<b>Epoch_change_inference output at middle-point (33,34,35)</b><br>
 <img src="./projects/TensorFlowFlexUNet/Lung-Vessel-CT/asset/epoch_change_infer_at_middlepoint.png" width="1024" height="auto"><br>
 <br>
-<b>Epoch_change_inference output at ending (45,46,47)</b><br>
+<b>Epoch_change_inference output at ending (68,69,70)</b><br>
 <img src="./projects/TensorFlowFlexUNet/Lung-Vessel-CT/asset/epoch_change_infer_at_end.png" width="1024" height="auto"><br>
 
 <br>
-In this experiment, the training process was terminated at epoch 47.<br><br>
-<!--
-<img src="./projects/TensorFlowFlexUNet/Lung-Vessel-CT/asset/train_console_output_at_epoch20.png" width="880" height="auto"><br>
--->
+In this experiment, the training process was terminated at epoch 70.<br><br>
+
+<img src="./projects/TensorFlowFlexUNet/Lung-Vessel-CT/asset/train_console_output_at_epoch70.png" width="1024" height="auto"><br>
+
 <br>
 <a href="./projects/TensorFlowFlexUNet/Lung-Vessel-CT/eval/train_metrics.csv">train_metrics.csv</a><br>
 <img src="./projects/TensorFlowFlexUNet/Lung-Vessel-CT/eval/train_metrics.png" width="520" height="auto"><br>
@@ -217,15 +219,15 @@ This bat file simply runs the following command.
 </pre>
 
 Evaluation console output:<br>
-<img src="./projects/TensorFlowFlexUNet/Lung-Vessel-CT/asset/evaluate_console_output_at_epoch47.png" width="880" height="auto">
+<img src="./projects/TensorFlowFlexUNet/Lung-Vessel-CT/asset/evaluate_console_output_at_epoch70.png" width="1024" height="auto">
 <br><br>Image-Segmentation-Lung-Vessel-CT
 
 <a href="./projects/TensorFlowFlexUNet/Lung-Vessel-CT/evaluation.csv">evaluation.csv</a><br>
 The loss (categorical_crossentropy) to this Lung-Vessel-CT/test was low, and dice_coef_multiclass high as shown below.
 <br>
 <pre>
-categorical_crossentropy,0.0168
-dice_coef_multiclass,0.9914
+categorical_crossentropy,0.0152
+dice_coef_multiclass,0.993
 </pre>
 <br>
 <h3>5 Inference</h3>
